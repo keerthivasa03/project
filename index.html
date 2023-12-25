@@ -21,14 +21,21 @@
     }
 
     .banner {
-      background-image: url("https://th.bing.com/th/id/R.af5c12a1f8fa440ff08a426003a5b423?rik=9jW5qd7BmZiOoQ&riu=http%3a%2f%2fshipsoft.sg%2fimages%2fservices%2f61f7a48b47b28.jpg&ehk=TMnsBT9cEquSLbo4S6LH9%2bKTdBgNeX42vTwX9Px3Hj4%3d&risl=&pid=ImgRaw&r=0");
-      height: 80vh;
-      width: 100%;
+      background-image: url("https://cdn.shopify.com/s/files/1/0589/7951/6592/files/catbox1_7ae57b33-32b8-4c41-99c4-e31f13f93de0_610x610_crop_center.jpg?v=1649336866");
+      height: 70vh;
+      width: 98%;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: 0;
       margin-left: 5px;
       padding-bottom: 20px;
+      position: relative;
+    }
+
+    @media(max-width:700) {
+      .banner {
+        min-height: 30vh;
+      }
     }
 
     .div {
@@ -36,12 +43,17 @@
       width: 100%;
       margin-left: 20px;
     }
+
+    .g {
+      margin-top: 100px;
+      margin-left: 7%;
+    }
   </style>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body sticky-sm-top w-100%"
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body sticky-sm-top ms-1 p-1"
     data-bs-theme="dark">
     <div class=" container">
       <a class="navbar-brand ms-5 text-uppercase" href="#">Cubes</a>
@@ -74,11 +86,13 @@
   </nav>
   <section>
     <div class="row">
-      <div class="col-12 col-12   ">
-        <div class="banner d-flex justify-content-center aline">
-          <div class=" mt-auto w-50%">
-            <button type="button" class="btn btn-dark  px-5 text-uppercase">click to buy</button>
-          </div>
+      <div class="col-12 col-12 banner  aline col-6 kee ">
+
+
+        <div class="g">
+          <h1>NEW laptops sale</h1>
+          <h2>get now!!!</h2>
+          <button type="button" class="btn btn-dark my-3 px-5 text-uppercase" href="#shop">click to buy</button>
         </div>
 
       </div>
